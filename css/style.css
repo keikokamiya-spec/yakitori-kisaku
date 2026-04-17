@@ -315,10 +315,9 @@ header.scrolled {
 }
 
 .menu-img-wrapper {
-    aspect-ratio: 4/3;
+    aspect-ratio: 1/1; /* Square ratio for uniform grid */
     overflow: hidden;
     margin-bottom: 16px;
-    background-color: rgba(0,0,0,0.03); /* Added background for contain mode */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -327,7 +326,7 @@ header.scrolled {
 .menu-img-wrapper img {
     width: 100%;
     height: 100%;
-    object-fit: contain; /* Changed from cover to contain */
+    object-fit: cover; /* Back to cover to ensure no gaps, making sizes match */
     transition: var(--transition);
 }
 
