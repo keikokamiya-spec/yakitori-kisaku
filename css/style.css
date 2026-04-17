@@ -428,7 +428,7 @@ footer {
     .concept-inner { flex-direction: column; gap: 40px; }
     .strength-grid { grid-template-columns: 1fr; }
     .menu-grid { grid-template-columns: 1fr 1fr; }
-    .access-grid { grid-template-columns: 1fr; }
+    .access-grid { grid-template-columns: 1fr; gap: 40px; }
     .header-inner { padding: 0 16px; }
     .nav-list { display: none; }
 }
@@ -436,7 +436,13 @@ footer {
 @media (max-width: 600px) {
     .menu-grid { grid-template-columns: 1fr; }
     .hero-title { font-size: 32px; }
-    .section { padding: 80px 0; }
+    .section { padding: 60px 0; }
+    .info-table th { width: 100px; padding: 12px 0; font-size: 13px; }
+    .info-table td { padding: 12px 0; font-size: 14px; }
+    .coupon { padding: 24px; margin-top: 40px; }
+    .coupon h4 { font-size: 18px; }
+    .coupon p { font-size: 14px; }
+    .access-map iframe { height: 300px; }
 }
 
 /* Animations */
