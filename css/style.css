@@ -332,12 +332,6 @@ header.scrolled {
     transition: var(--transition);
 }
 
-.menu-img-wrapper img.small-thumb {
-    width: 70%; /* Specifically shrink this thumbnail */
-    height: 70%;
-    object-fit: contain;
-}
-
 .menu-item:hover .menu-img-wrapper img {
     transform: scale(1.1);
 }
