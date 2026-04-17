@@ -315,10 +315,9 @@ header.scrolled {
 }
 
 .menu-img-wrapper {
-    aspect-ratio: 1/1;
-    max-width: 260px; /* Reduced frame size */
-    margin: 0 auto 16px; /* Centered with bottom margin */
+    aspect-ratio: 3 / 4; /* Elegant vertical ratio */
     overflow: hidden;
+    margin-bottom: 24px;
     background-color: #f0f0f0; 
     display: flex;
     align-items: center;
@@ -327,9 +326,9 @@ header.scrolled {
 }
 
 .menu-img-wrapper img {
-    width: 90%; /* Shrink slightly to fit neatly */
-    height: 90%;
-    object-fit: contain; /* Full visibility */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Unified orientation allows for clean cover fit */
     transition: var(--transition);
 }
 
